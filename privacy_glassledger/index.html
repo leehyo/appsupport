@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en" class="lang-en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlassLedger Privacy Policy</title>
+  <script>
+    (function () {
+      var primaryLanguage = navigator.languages && navigator.languages.length
+        ? navigator.languages[0]
+        : navigator.language || navigator.userLanguage || "";
+      var isKorean = String(primaryLanguage).toLowerCase().indexOf("ko") === 0;
+
+      document.documentElement.lang = isKorean ? "ko" : "en";
+      document.documentElement.className = isKorean ? "lang-ko" : "lang-en";
+      document.title = isKorean ? "GlassLedger 개인정보 처리방침" : "GlassLedger Privacy Policy";
+    })();
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --text: #17191f;
+      --muted: #667085;
+      --line: #e4e7ec;
+      --accent: #2e7d67;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    .page {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 44px 0;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 14px 36px rgba(16, 24, 40, 0.06);
+    }
+
+    .page-header {
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 26px 0 8px;
+      font-size: 19px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0 0 12px;
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .lang-en .ko-only,
+    .lang-ko .en-only {
+      display: none;
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        width: min(100% - 20px, 760px);
+        padding: 20px 0;
+      }
+
+      .card {
+        border-radius: 10px;
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page ko-only">
+    <div class="card">
+      <div class="page-header">
+        <div class="eyebrow">GlassLedger</div>
+        <h1>개인정보 처리방침</h1>
+        <p class="muted">시행일: 2026년 5월 21일</p>
+      </div>
+
+      <p>
+        GlassLedger는 사용자가 직접 입력한 지출, 수입, 이체, 예산, 카테고리, 계좌, 고정 항목을
+        기기 안에서 관리하는 로컬 우선 가계부 앱입니다. GlassLedger는 은행, 카드사 또는 금융 계좌에
+        연결하지 않으며, 개발자 서버로 가계부 기록을 업로드하지 않습니다.
+      </p>
+
+      <h2>1. 앱에서 사용하는 정보</h2>
+      <ul>
+        <li>가계부 기록: 지출, 수입, 이체 금액, 날짜, 카테고리, 계좌, 메모가 기기에 저장될 수 있습니다.</li>
+        <li>예산 및 설정: 월 예산, 카테고리 예산, 통화 설정, 사용자 추가 카테고리, 사용자 추가 계좌, 고정 항목이 기기에 저장될 수 있습니다.</li>
+        <li>광고 표시 상태: 무료 앱 제공을 위해 광고 SDK가 광고 요청 및 표시와 관련된 정보를 처리할 수 있습니다.</li>
+      </ul>
+
+      <h2>2. 로컬 저장 및 처리</h2>
+      <p>
+        사용자가 입력한 가계부 데이터는 SwiftData 및 앱 설정 저장소를 통해 기기 안에 저장됩니다.
+        GlassLedger는 별도의 로그인, 개발자 백엔드, 금융 계좌 연동 기능을 제공하지 않습니다.
+      </p>
+      <p>
+        개발자는 사용자의 지출 내역, 계좌명, 메모, 예산 정보를 열람하거나 서버에서 복구할 수 없습니다.
+        앱 안에서 삭제한 데이터 또는 앱 삭제로 제거된 로컬 데이터는 개발자 서버에 백업되지 않습니다.
+      </p>
+
+      <h2>3. 광고</h2>
+      <p>
+        GlassLedger는 무료 제공을 위해 Google AdMob 배너 광고를 사용합니다. 광고 SDK는 광고 제공,
+        빈도 제한, 성과 측정, 보안, 부정 사용 방지, 동의 관리를 위해 IP 주소, 대략적인 위치,
+        기기 식별자, 광고 상호작용, 앱 상호작용, 충돌 로그, 성능 정보 등을 처리할 수 있습니다.
+      </p>
+      <p>
+        GlassLedger는 사용자가 입력한 가계부 기록, 계좌명, 메모, 예산 내용을 Google AdMob 또는
+        개발자 서버로 전송하지 않습니다.
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" rel="noopener">Google 개인정보처리방침</a></li>
+        <li><a href="https://developers.google.com/admob/ios/privacy" rel="noopener">Google AdMob 개인정보 안내</a></li>
+      </ul>
+
+      <h2>4. 권한 및 사용자 제어</h2>
+      <p>
+        iOS 설정에서 앱 권한, 광고 개인화, 추적 관련 설정을 관리할 수 있습니다. 앱에서 만든 기록,
+        카테고리, 계좌, 고정 항목은 앱 안에서 직접 관리하거나 앱을 삭제하여 기기에서 제거할 수 있습니다.
+      </p>
+
+      <h2>5. 아동</h2>
+      <p>
+        GlassLedger는 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다.
+      </p>
+
+      <h2>6. 변경</h2>
+      <p>
+        앱 기능, 광고 SDK 동작, 법적 요구 사항이 변경되면 이 개인정보 처리방침이 업데이트될 수 있습니다.
+        변경 사항은 이 페이지에 게시됩니다.
+      </p>
+
+      <h2>7. 문의</h2>
+      <p>
+        개인정보 관련 문의: <a href="mailto:iisjoong.app@icloud.com">iisjoong.app@icloud.com</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="page en-only">
+    <div class="card">
+      <div class="page-header">
+        <div class="eyebrow">GlassLedger</div>
+        <h1>Privacy Policy</h1>
+        <p class="muted">Effective Date: May 21, 2026</p>
+      </div>
+
+      <p>
+        GlassLedger is a local-first budget tracker that helps you manage expenses, income, transfers,
+        budgets, categories, accounts, and recurring items that you enter manually. GlassLedger does not
+        connect to banks, card issuers, or financial accounts, and we do not upload your ledger records
+        to developer servers.
+      </p>
+
+      <h2>1. Information Used by the App</h2>
+      <ul>
+        <li>Ledger records: expense, income, and transfer amounts, dates, categories, accounts, and notes may be stored on your device.</li>
+        <li>Budgets and settings: monthly budgets, category budgets, currency settings, custom categories, custom accounts, and recurring items may be stored on your device.</li>
+        <li>Ad delivery state: to support the free app, the advertising SDK may process information related to ad requests and ad display.</li>
+      </ul>
+
+      <h2>2. Local Storage and Processing</h2>
+      <p>
+        The ledger data you enter is stored on your device using SwiftData and app settings storage.
+        GlassLedger does not provide account sign-in, a developer backend, or financial account linking.
+      </p>
+      <p>
+        The developer cannot view or restore your spending history, account names, notes, or budget details
+        from a server. Data deleted in the app or removed by deleting the app is not backed up to developer servers.
+      </p>
+
+      <h2>3. Ads</h2>
+      <p>
+        GlassLedger uses Google AdMob banner ads to support the free app. The advertising SDK may process
+        IP address, approximate location, device identifiers, ad interactions, app interactions, crash logs,
+        and performance information for ad delivery, frequency capping, measurement, security, fraud prevention,
+        and consent management.
+      </p>
+      <p>
+        GlassLedger does not send your ledger records, account names, notes, or budget details to Google AdMob
+        or to developer servers.
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></li>
+        <li><a href="https://developers.google.com/admob/ios/privacy" rel="noopener">Google AdMob Privacy</a></li>
+      </ul>
+
+      <h2>4. Permissions and User Controls</h2>
+      <p>
+        You can manage app permissions, ad personalization, and tracking-related controls in iOS Settings.
+        Records, categories, accounts, and recurring items created in the app can be managed in the app or
+        removed from the device by deleting the app.
+      </p>
+
+      <h2>5. Children</h2>
+      <p>
+        GlassLedger is not directed to children under 13 and does not knowingly collect personal information from children.
+      </p>
+
+      <h2>6. Changes</h2>
+      <p>
+        We may update this Privacy Policy if app features, advertising SDK behavior, or legal requirements change.
+        Updates will be posted on this page.
+      </p>
+
+      <h2>7. Contact</h2>
+      <p>
+        Privacy contact: <a href="mailto:iisjoong.app@icloud.com">iisjoong.app@icloud.com</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
