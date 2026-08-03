@@ -16,6 +16,7 @@ These pages are quiet legal and support documents for small iOS apps. The signat
 | Text/secondary | --text-secondary | #667085 | N/A | Dates and secondary notes |
 | Border/default | --border-default | #E4E7EC | N/A | Card borders and dividers |
 | Accent/NightWeb | --accent-nightweb | #5B5CF6 | N/A | NightWeb links and eyebrow |
+| Accent/Puzzle Ritual | --accent-puzzle-ritual | #F59E0B | N/A | Puzzle Ritual links and eyebrow |
 
 ### Rules
 
@@ -63,8 +64,8 @@ All spacing derives from a base of 4px.
 ### Grid
 
 - Max content width: 760px
-- Mobile page margin: 24px
-- Mobile card max width: 300px
+- Mobile page margin: 10px
+- Mobile card width: fluid within the page wrapper, up to the 760px content maximum
 - Desktop page margin: 16px
 
 ### Rules
