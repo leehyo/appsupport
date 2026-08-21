@@ -5,6 +5,7 @@
   --text-primary: #17191f;
   --text-secondary: #667085;
   --border-default: #e4e7ec;
+  --accent-seoulchance: #0a84ff;
   --accent-sparkfall: #b54708;
   --space-2: 8px;
   --space-3: 12px;
@@ -38,6 +39,24 @@ body {
 
 .accent-sparkfall {
   --accent: var(--accent-sparkfall);
+}
+
+.accent-seoulchance {
+  --accent: var(--accent-seoulchance);
+}
+
+.preserve-words {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.accent-seoulchance a {
+  text-decoration: none;
+}
+
+.accent-seoulchance a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: auto;
 }
 
 .policy-page {

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the SeoulChance iOS app.">
+  <link rel="canonical" href="https://leehyo.github.io/appsupport/privacy_seoulchance/">
+  <title>SeoulChance Privacy Policy</title>
+  <script>
+    (function () {
+      var primaryLanguage = navigator.languages && navigator.languages.length
+        ? navigator.languages[0]
+        : navigator.language || navigator.userLanguage || "";
+      var isKorean = String(primaryLanguage).toLowerCase().indexOf("ko") === 0;
+
+      window.seoulChanceUsesKorean = isKorean;
+      document.documentElement.lang = isKorean ? "ko" : "en";
+      document.title = isKorean ? "서울찬스 개인정보 처리방침" : "SeoulChance Privacy Policy";
+    })();
+  </script>
+  <link rel="stylesheet" href="../privacy-policy.css">
+</head>
+<body class="accent-seoulchance preserve-words">
+  <main class="policy-page">
+    <article class="policy-card">
+      <header class="policy-header">
+        <div class="eyebrow" data-ko="서울찬스">SeoulChance</div>
+        <h1 data-ko="개인정보 처리방침">Privacy Policy</h1>
+        <p class="muted" data-ko="시행일: 2026년 8월 21일">Effective Date: August 21, 2026</p>
+      </header>
+
+      <p data-ko="서울찬스는 서울시 공공서비스예약 정보를 찾아보고 관리하는 앱입니다. 계정이나 로그인이 필요하지 않으며, 개발자가 운영하는 서버에서 사용자의 개인정보를 수집하지 않습니다.">
+        SeoulChance helps you find and manage public service reservations in Seoul. No account or sign-in is required,
+        and the developer does not collect personal information through a developer-operated server.
+      </p>
+
+      <h2 data-ko="1. 수집하지 않는 정보">1. Information We Do Not Collect</h2>
+      <p data-ko="서울찬스는 이름, 이메일, 연락처, 위치, 광고 식별자 또는 사용자 행동 정보를 수집하지 않습니다. 광고, 분석 SDK, 사용자 추적 기능을 사용하지 않습니다.">
+        SeoulChance does not collect your name, email address, contacts, location, advertising identifier, or usage behavior.
+        The app does not use advertising, analytics SDKs, or user tracking.
+      </p>
+
+      <h2 data-ko="2. 기기에 저장되는 정보">2. Information Stored on Your Device</h2>
+      <p data-ko="관심 지역, 관심 카테고리, 무료 프로그램 보기 설정, 즐겨찾기와 공공예약 정보 캐시는 사용자의 기기에만 저장됩니다. 앱을 삭제하면 앱 안에 저장된 정보도 함께 제거됩니다.">
+        Preferred districts and categories, the free-program setting, favorites, and cached public reservation information
+        are stored only on your device. This information is removed when you delete the app.
+      </p>
+
+      <h2 data-ko="3. 캘린더와 외부 서비스">3. Calendar and External Services</h2>
+      <p data-ko="캘린더 추가는 Apple 시스템 편집 화면에서 사용자가 내용을 확인하고 직접 저장합니다. 서울찬스는 기존 캘린더 일정을 읽지 않습니다.">
+        Calendar events are presented in Apple's system editor for you to review and save.
+        SeoulChance does not read your existing calendar events.
+      </p>
+      <p data-ko="공공예약 정보는 서울 열린데이터광장에서 불러옵니다. 이 과정에서 서울시 서비스가 IP 주소 등 일반적인 네트워크 연결 정보를 처리할 수 있지만, 개발자는 해당 정보를 수신하거나 저장하지 않습니다. 사용자가 공식 예약, 지도 또는 데이터 출처 링크를 선택하면 서울시 또는 Apple의 외부 서비스가 열리며, 해당 서비스의 개인정보 처리방침이 적용됩니다.">
+        Public reservation information is loaded from the Seoul Open Data service. The service may process ordinary network
+        connection information such as your IP address, but the developer does not receive or store it. When you choose an
+        official reservation, map, or data-source link, a Seoul Metropolitan Government or Apple service opens and its privacy policy applies.
+      </p>
+
+      <h2 data-ko="4. 변경">4. Changes</h2>
+      <p data-ko="앱 기능이나 법적 요구 사항이 변경되면 이 개인정보 처리방침이 업데이트될 수 있습니다. 변경 사항은 이 페이지에 게시됩니다.">
+        We may update this Privacy Policy if app features or legal requirements change.
+        Updates will be posted on this page.
+      </p>
+
+      <h2 data-ko="5. 문의">5. Contact</h2>
+      <p>
+        <span data-ko="개인정보 관련 문의: ">Privacy contact: </span><a href="mailto:iisjoong.app@icloud.com">iisjoong.app@icloud.com</a>
+      </p>
+    </article>
+  </main>
+  <script>
+    if (window.seoulChanceUsesKorean) {
+      document.querySelectorAll("[data-ko]").forEach(function (element) {
+        element.textContent = element.getAttribute("data-ko");
+      });
+    }
+  </script>
+</body>
+</html>

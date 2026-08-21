@@ -15,6 +15,7 @@ These pages are quiet legal and support documents for small iOS apps. The signat
 | Text/primary | --text-primary | #17191F | N/A | Headings and body |
 | Text/secondary | --text-secondary | #667085 | N/A | Dates and secondary notes |
 | Border/default | --border-default | #E4E7EC | N/A | Card borders and dividers |
+| Accent/SeoulChance | --accent-seoulchance | #0A84FF | N/A | SeoulChance links and eyebrow |
 | Accent/NightWeb | --accent-nightweb | #5B5CF6 | N/A | NightWeb links and eyebrow |
 | Accent/Puzzle Ritual | --accent-puzzle-ritual | #F59E0B | N/A | Puzzle Ritual links and eyebrow |
 | Accent/OrbShift | --accent-orbshift | #0A84FF | N/A | OrbShift links and eyebrow |
@@ -47,6 +48,7 @@ These pages are quiet legal and support documents for small iOS apps. The signat
 
 - Body text never drops below 14px.
 - Korean and English share the same system stack for predictable rendering on Apple devices.
+- Korean policy copy preserves whole words where possible and falls back to breaking only when needed to prevent overflow.
 
 ## 4. Spacing & Layout
 
@@ -81,7 +83,7 @@ All spacing derives from a base of 4px.
 
 - Structure: page wrapper, single card, header, numbered sections.
 - Implementation: reusable classes and tokens live in `privacy-policy.css`.
-- Variants: app accent color may change per app.
+- Variants: app accent color and locale-aware wrapping may change per app.
 - Spacing: card uses --space-8 on desktop and --space-5 on compact screens.
 - States: links underline on hover.
 - Accessibility: one main landmark, one h1, semantic headings and lists.
