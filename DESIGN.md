@@ -18,6 +18,7 @@ These pages are quiet legal and support documents for small iOS apps. The signat
 | Accent/NightWeb | --accent-nightweb | #5B5CF6 | N/A | NightWeb links and eyebrow |
 | Accent/Puzzle Ritual | --accent-puzzle-ritual | #F59E0B | N/A | Puzzle Ritual links and eyebrow |
 | Accent/OrbShift | --accent-orbshift | #0A84FF | N/A | OrbShift links and eyebrow |
+| Accent/Sparkfall | --accent-sparkfall | #B54708 | N/A | Sparkfall links and eyebrow; selected for readable contrast on white |
 
 ### Rules
 
@@ -79,6 +80,7 @@ All spacing derives from a base of 4px.
 ### Policy Card
 
 - Structure: page wrapper, single card, header, numbered sections.
+- Implementation: reusable classes and tokens live in `privacy-policy.css`.
 - Variants: app accent color may change per app.
 - Spacing: card uses --space-8 on desktop and --space-5 on compact screens.
 - States: links underline on hover.
